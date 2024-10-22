@@ -1,29 +1,16 @@
 # MeXE402_Midterm_Catambay_De-Leon
 # Credit Card Fraud Detection
-This dataset contains transactions made by credit cards in September 2013 by European cardholde.
+# Problem Statement
+As for many banks, keeping highly profitable customers is their top priority. However, banking fraud significantly threatens this objective across various institutions. This issue raises concerns regarding financial losses, trust, and credibility for both banks and their customers.
 
-# Linear Regression
+In the banking sector, using machine learning for credit card fraud detection has become essential for implementing proactive monitoring and fraud prevention strategies. Machine learning aids these institutions in minimizing the time spent on manual reviews, reducing costly chargebacks and fees, and preventing the denial of legitimate transactions.
 
-Continuous - Time, V1-V28, Amount
+In this project, we aim to identify fraudulent credit card transactions using machine learning models. We will examine customer-level data gathered during a research partnership between Worldline and the machine learning group.
 
-The dataset includes the following features:
+# Dataset Content
+The dataset includes credit card transactions from European cardholders that took place in September 2013. It encompasses transactions over two days, with a total of 284,807 transactions, of which 492 are fraudulent. This dataset is highly imbalanced, with the fraudulent transactions representing only 0.172% of the total.
 
-V1, V2, ..., V28: Principal components obtained from PCA (Principal Component Analysis). These features are numerical and anonymized due to confidentiality issues.
+The dataset consists solely of numerical input variables resulting from a PCA transformation. Due to confidentiality concerns, we cannot disclose the original features or provide additional background information. Features V1, V2, ..., V28 represent the principal components derived from PCA, while the features 'Time' and 'Amount' have not undergone PCA transformation. The 'Time' feature indicates the seconds that have passed since the first transaction, and the 'Amount' feature represents the transaction amount, which can be utilized for example-dependent cost-sensitive learning. The 'Class' feature serves as the response variable, with a value of 1 indicating fraud and 0 indicating a legitimate transaction.
 
-Time: The number of seconds elapsed between each transaction and the first transaction in the dataset.
+Given the class imbalance, we suggest evaluating accuracy using the Area Under the Precision-Recall Curve (AUPRC), as the accuracy derived from a confusion matrix is not a reliable measure for imbalanced classifications.
 
-Amount: The transaction amount, which can be used for cost-sensitive learning.
-
-# Logistic Regression
-
-Binary/Categorial - Class (Fraudulent(1) or Legitimate(0))
-
-Class: The target variable, where 1 indicates a fraudulent transaction and 0 indicates a non-fraudulent transaction.
-
-# Dataset Details
-
-Total Transactions: 284,807
-
-Fraudulent Transactions: 492
-
-Class Imbalance: Fraudulent transactions account for approximately 0.172% of all transactions.
