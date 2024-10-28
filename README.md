@@ -19,3 +19,6 @@ Given the class imbalance, we suggest evaluating accuracy using the Area Under t
 
 # World Happiness Report
 # Problem Statement
+The World Happiness Report utilizes data from the Gallup World Poll to assess and rank the happiness levels of countries based on respondents' evaluations of their current lives using the Cantril ladder method. Despite the comprehensive rankings, there is a need to better understand how specific factors—such as economic production, social support, life expectancy, freedom, absence of corruption, and generosity—contribute to variations in happiness scores. This analysis aims to identify the underlying relationships between these factors and happiness levels, offering insights into why some countries achieve higher rankings than others compared to a hypothetical baseline (Dystopia). Ultimately, the goal is to leverage these findings to inform policy decisions that enhance overall well-being and quality of life on a national scale.
+
+
