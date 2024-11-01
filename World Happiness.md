@@ -45,7 +45,7 @@ Coefficients of the model were extracted and displayed to assess the influence o
 
 ## Step 10: Visualization
 A scatter plot of actual vs. predicted happiness scores was created to visually assess model performance.
-
+![Alt text]([URL_or_path_to_image](https://drive.google.com/file/d/1NcSuVBGUKVJEUCHYw-p37jBS0t-3HA9l/view?usp=sharing))
 # Results
 
 ## Summary of Findings
