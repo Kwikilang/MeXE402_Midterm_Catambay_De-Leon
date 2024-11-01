@@ -76,6 +76,7 @@ The coefficients for each predictor variable were presented in a table, indicati
 
 ### Visual Representation:
 A scatter plot showing the relationship between actual and predicted happiness scores.
+![Actual vs Predicted Happiness Scores](output.png)
 
 # Discussion
 
@@ -83,13 +84,6 @@ A scatter plot showing the relationship between actual and predicted happiness s
 The linear regression model provided insights into how socioeconomic factors influence happiness. The positive coefficients for predictors like GDP per capita, family support, and health suggest that these factors play a significant role in increasing happiness levels.
 
 The R-squared value indicates a strong correlation between the predictors and the happiness score, suggesting that the model explains a substantial portion of the variance in happiness across different countries.
-
-## Comparison of Regression Methods
-While this analysis used linear regression, it is also essential to consider alternative methods, such as:
-- **Logistic Regression:** Suitable for binary outcomes (e.g., happy/unhappy) rather than continuous scores.
-- **Polynomial Regression:** Could capture non-linear relationships among variables.
-
-The choice of method depends on the specific research question and data characteristics.
 
 ## Limitations
 
