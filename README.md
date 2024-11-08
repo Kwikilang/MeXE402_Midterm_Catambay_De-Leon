@@ -14,7 +14,9 @@ The dataset consists solely of numerical input variables resulting from a PCA tr
 
 Given the class imbalance, we suggest evaluating accuracy using the Area Under the Precision-Recall Curve (AUPRC), as the accuracy derived from a confusion matrix is not a reliable measure for imbalanced classifications.
 
+Key Variables in Dataset
 
+# Project Overview
 
 
 # World Happiness Report
